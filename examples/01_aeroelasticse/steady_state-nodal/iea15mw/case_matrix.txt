@@ -1,0 +1,4 @@
+ Case_ID  ElastoDyn  ElastoDyn  ElastoDyn  ElastoDyn      ElastoDyn         Fst        Fst         Fst      Fst     Fst       Fst      Fst   InflowWind  InflowWind  ServoDyn  ServoDyn 
+           BlPitch1   BlPitch2   BlPitch3    GenDOF        RotSpeed      CompElast  CompInflow  CompServo    DT    DT_Out  OutFileFmt  TMax  HWindSpeed   WindType    PCMode   VSContrl 
+    0        0.0        0.0        0.0        True    7.312788026081227      1          1           1      0.0002   0.01       0       0.01      10          1          5         5     
+    1        0.0        0.0        0.0        True    7.312788026081227      2          1           1      0.0002   0.01       0       0.01      10          1          5         5     

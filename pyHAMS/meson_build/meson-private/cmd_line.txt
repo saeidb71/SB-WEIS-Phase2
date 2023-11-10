@@ -1,0 +1,7 @@
+[options]
+python.purelibdir = .
+python.platlibdir = .
+prefix = /home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build
+
+[properties]
+

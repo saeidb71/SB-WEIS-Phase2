@@ -1,0 +1,256 @@
+Build started at 2023-11-10T09:43:34.997432
+Main binary: /home/bayat2/anaconda3/envs/weis-env2/bin/python3.1
+Build Options: -Dpython.purelibdir=. -Dpython.platlibdir=. -Dprefix=/home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build
+Python system: Linux
+The Meson build system
+Version: 1.2.3
+Source dir: /home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS
+Build dir: /home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build
+Build type: native build
+Project name: pyhams
+Project version: undefined
+-----------
+Detecting compiler via: `cc --version` -> 0
+stdout:
+cc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+-----------
+Running command: cc -E -dM -
+-----
+-----------
+Detecting linker via: `cc -Wl,--version` -> 0
+stdout:
+GNU ld (GNU Binutils for Ubuntu) 2.34
+Copyright (C) 2020 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+-----------
+stderr:
+collect2 version 9.4.0
+/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc25R7Hp.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. --version -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+-----------
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  /home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build/meson-private/sanitycheckc.exe
+C compiler for the host machine: cc (gcc 9.4.0 "cc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0")
+C linker for the host machine: cc ld.bfd 2.34
+-----------
+Detecting linker via: `gcc-ar --version` -> 0
+stdout:
+GNU ar (GNU Binutils for Ubuntu) 2.34
+Copyright (C) 2020 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) any later version.
+This program has absolutely no warranty.
+-----------
+-----------
+Detecting compiler via: `cc --version` -> 0
+stdout:
+cc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+-----------
+Running command: cc -E -dM -
+-----
+-----------
+Detecting linker via: `cc -Wl,--version` -> 0
+stdout:
+GNU ld (GNU Binutils for Ubuntu) 2.34
+Copyright (C) 2020 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+-----------
+stderr:
+collect2 version 9.4.0
+/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOurGjN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. --version -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+-----------
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  /home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build/meson-private/sanitycheckc.exe
+C compiler for the build machine: cc (gcc 9.4.0 "cc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0")
+C linker for the build machine: cc ld.bfd 2.34
+-----------
+Detecting linker via: `gcc-ar --version` -> 0
+stdout:
+GNU ar (GNU Binutils for Ubuntu) 2.34
+Copyright (C) 2020 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) any later version.
+This program has absolutely no warranty.
+-----------
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+-----------
+Detecting compiler via: `gfortran --version` -> 0
+stdout:
+GNU Fortran (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+-----------
+Running command: gfortran -E -dM -
+-----
+-----------
+Detecting linker via: `gfortran -Wl,--version` -> 0
+stdout:
+GNU ld (GNU Binutils for Ubuntu) 2.34
+Copyright (C) 2020 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+-----------
+stderr:
+collect2 version 9.4.0
+/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc32aW47.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. --version -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+-----------
+Sanity testing Fortran compiler: gfortran
+Is cross compiler: False.
+Sanity check compiler command line: gfortran sanitycheckf.f90 -o sanitycheckf.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  /home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build/meson-private/sanitycheckf.exe
+Fortran compiler for the host machine: gfortran (gcc 9.4.0 "GNU Fortran (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0")
+Fortran linker for the host machine: gfortran ld.bfd 2.34
+Running compile:
+Working directory:  /home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build/meson-private/tmpsmkmp5h1
+Code:
+ int main(void) { return 0; }
+
+-----------
+Command line: `cc /home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build/meson-private/tmpsmkmp5h1/testfile.c -o /home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build/meson-private/tmpsmkmp5h1/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lm -Wl,--end-group -Wl,--allow-shlib-undefined` -> 0
+Library m found: YES
+Running compile:
+Working directory:  /home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build/meson-private/tmphmr93dsk
+Code:
+ stop; end program
+-----------
+Command line: `gfortran /home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build/meson-private/tmphmr93dsk/testfile.f90 -o /home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build/meson-private/tmphmr93dsk/output.obj -D_FILE_OFFSET_BITS=64 -c -O0 -fdec-math` -> 0
+Compiler for Fortran supports arguments -fdec-math: YES 
+Running compile:
+Working directory:  /home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build/meson-private/tmp2zcvj33g
+Code:
+ stop; end program
+-----------
+Command line: `gfortran /home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build/meson-private/tmp2zcvj33g/testfile.f90 -o /home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build/meson-private/tmp2zcvj33g/output.obj -D_FILE_OFFSET_BITS=64 -c -O0 -fno-align-commons` -> 0
+Compiler for Fortran supports arguments -fno-align-commons: YES 
+Running compile:
+Working directory:  /home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build/meson-private/tmpelch04tx
+Code:
+ 
+        
+        #ifndef _OPENMP
+        # define _OPENMP
+        #endif
+        "MESON_GET_DEFINE_DELIMITER"
+_OPENMP
+-----------
+Command line: `cc /home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build/meson-private/tmpelch04tx/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -fopenmp` -> 0
+stdout:
+"MESON_GET_DEFINE_DELIMITER"
+201511
+-----------
+Running compile:
+Working directory:  /home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build/meson-private/tmpudbgfvff
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("omp.h")
+          #error "Header 'omp.h' could not be found"
+         #endif
+        #else
+         #include <omp.h>
+        #endif
+-----------
+Command line: `cc /home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build/meson-private/tmpudbgfvff/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0` -> 0
+Run-time dependency OpenMP found: YES 4.5
+Program python found: YES (/home/bayat2/anaconda3/envs/weis-env2/bin/python)
+Searching for 'python-3.11' via pkgconfig lookup in LIBPC
+Pkg-config binary for 1 is not cached.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Found pkg-config: /usr/bin/pkg-config (0.29.1)
+Determining dependency 'python-3.11' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_LIBDIR]: /home/bayat2/anaconda3/envs/weis-env2/lib/pkgconfig
+env[PKG_CONFIG_PATH]: 
+-----------
+Called: `/usr/bin/pkg-config --modversion python-3.11` -> 0
+stdout:
+3.11
+-----------
+env[PKG_CONFIG_LIBDIR]: /home/bayat2/anaconda3/envs/weis-env2/lib/pkgconfig
+env[PKG_CONFIG_PATH]: 
+-----------
+Called: `/usr/bin/pkg-config --cflags python-3.11` -> 0
+stdout:
+-I/home/bayat2/anaconda3/envs/weis-env2/include/python3.11
+-----------
+env[PKG_CONFIG_LIBDIR]: /home/bayat2/anaconda3/envs/weis-env2/lib/pkgconfig
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+-----------
+Called: `/usr/bin/pkg-config --libs python-3.11` -> 0
+env[PKG_CONFIG_LIBDIR]: /home/bayat2/anaconda3/envs/weis-env2/lib/pkgconfig
+env[PKG_CONFIG_PATH]: 
+-----------
+Called: `/usr/bin/pkg-config --libs python-3.11` -> 0
+Run-time dependency python found: YES 3.11
+meson.build:77: WARNING: Project targets '>= 0.60' but uses feature deprecated since '0.55.0': ExternalProgram.path. use ExternalProgram.full_path() instead
+Message: /home/bayat2/anaconda3/envs/weis-env2/bin/python
+Message: /home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build/./
+Running command: /home/bayat2/anaconda3/envs/weis-env2/bin/python -c 'import os; os.chdir(".."); import numpy; print(numpy.get_include())'
+--- stdout ---
+/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/core/include
+
+--- stderr ---
+
+
+Build targets in project: 2
+WARNING: Deprecated features used:
+ * 0.55.0: {'ExternalProgram.path'}
+
+pyhams undefined
+
+  User defined options
+    prefix           : /home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build
+    python.platlibdir: .
+    python.purelibdir: .
+
+Found ninja-1.11.1 at /home/bayat2/anaconda3/envs/weis-env2/bin/ninja
+Running compile:
+Working directory:  /home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build/meson-private/tmppjlbr0np
+Code:
+ 
+-----------
+Command line: `gfortran /home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build/meson-private/tmppjlbr0np/testfile.f90 -o /home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build/meson-private/tmppjlbr0np/output.obj -D_FILE_OFFSET_BITS=64 -c -O0 --print-search-dirs` -> 0
+stdout:
+install: /usr/lib/gcc/x86_64-linux-gnu/9/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/9/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/9/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+-----------

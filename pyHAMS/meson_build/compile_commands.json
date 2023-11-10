@@ -1,0 +1,152 @@
+[
+  {
+    "directory": "/home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build",
+    "command": "cc -Ipyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -Ipyhams -I../pyhams -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/core/include -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/f2py/src -I/home/bayat2/anaconda3/envs/weis-env2/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -fPIC -fopenmp -MD -MQ pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/meson-generated_..__hamsmodule.c.o -MF pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/meson-generated_..__hamsmodule.c.o.d -o pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/meson-generated_..__hamsmodule.c.o -c pyhams/_hamsmodule.c",
+    "file": "pyhams/_hamsmodule.c",
+    "output": "pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/meson-generated_..__hamsmodule.c.o"
+  },
+  {
+    "directory": "/home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build",
+    "command": "gfortran -Ipyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -Ipyhams -I../pyhams -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/core/include -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/f2py/src -I/home/bayat2/anaconda3/envs/weis-env2/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -O2 -g -fdec-math -fno-align-commons -fPIC -fopenmp -Jpyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -o pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/meson-generated_..__hams-f2pywrappers2.f90.o -c pyhams/_hams-f2pywrappers2.f90",
+    "file": "pyhams/_hams-f2pywrappers2.f90",
+    "output": "pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/meson-generated_..__hams-f2pywrappers2.f90.o"
+  },
+  {
+    "directory": "/home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build",
+    "command": "gfortran -Ipyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -Ipyhams -I../pyhams -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/core/include -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/f2py/src -I/home/bayat2/anaconda3/envs/weis-env2/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -O2 -g -fdec-math -fno-align-commons -fPIC -fopenmp -Jpyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -o pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_WavDynMods.f90.o -c ../pyhams/src/WavDynMods.f90",
+    "file": "../pyhams/src/WavDynMods.f90",
+    "output": "pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_WavDynMods.f90.o"
+  },
+  {
+    "directory": "/home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build",
+    "command": "gfortran -Ipyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -Ipyhams -I../pyhams -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/core/include -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/f2py/src -I/home/bayat2/anaconda3/envs/weis-env2/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -O2 -g -fdec-math -fno-align-commons -fPIC -fopenmp -Jpyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -o pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_PatclVelct.f90.o -c ../pyhams/src/PatclVelct.f90",
+    "file": "../pyhams/src/PatclVelct.f90",
+    "output": "pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_PatclVelct.f90.o"
+  },
+  {
+    "directory": "/home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build",
+    "command": "gfortran -Ipyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -Ipyhams -I../pyhams -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/core/include -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/f2py/src -I/home/bayat2/anaconda3/envs/weis-env2/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -O2 -g -fdec-math -fno-align-commons -fPIC -fopenmp -Jpyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -o pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_BodyIntgr.f90.o -c ../pyhams/src/BodyIntgr.f90",
+    "file": "../pyhams/src/BodyIntgr.f90",
+    "output": "pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_BodyIntgr.f90.o"
+  },
+  {
+    "directory": "/home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build",
+    "command": "gfortran -Ipyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -Ipyhams -I../pyhams -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/core/include -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/f2py/src -I/home/bayat2/anaconda3/envs/weis-env2/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -O2 -g -fdec-math -fno-align-commons -fPIC -fopenmp -Jpyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -o pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_BodyIntgr_irr.f90.o -c ../pyhams/src/BodyIntgr_irr.f90",
+    "file": "../pyhams/src/BodyIntgr_irr.f90",
+    "output": "pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_BodyIntgr_irr.f90.o"
+  },
+  {
+    "directory": "/home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build",
+    "command": "gfortran -Ipyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -Ipyhams -I../pyhams -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/core/include -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/f2py/src -I/home/bayat2/anaconda3/envs/weis-env2/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -O2 -g -fdec-math -fno-align-commons -fPIC -fopenmp -Jpyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -o pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_AssbMatx.f90.o -c ../pyhams/src/AssbMatx.f90",
+    "file": "../pyhams/src/AssbMatx.f90",
+    "output": "pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_AssbMatx.f90.o"
+  },
+  {
+    "directory": "/home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build",
+    "command": "gfortran -Ipyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -Ipyhams -I../pyhams -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/core/include -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/f2py/src -I/home/bayat2/anaconda3/envs/weis-env2/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -O2 -g -fdec-math -fno-align-commons -fPIC -fopenmp -Jpyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -o pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_AssbMatx_irr.f90.o -c ../pyhams/src/AssbMatx_irr.f90",
+    "file": "../pyhams/src/AssbMatx_irr.f90",
+    "output": "pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_AssbMatx_irr.f90.o"
+  },
+  {
+    "directory": "/home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build",
+    "command": "gfortran -Ipyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -Ipyhams -I../pyhams -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/core/include -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/f2py/src -I/home/bayat2/anaconda3/envs/weis-env2/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -O2 -g -fdec-math -fno-align-commons -fPIC -fopenmp -Jpyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -o pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_SingularIntgr.f90.o -c ../pyhams/src/SingularIntgr.f90",
+    "file": "../pyhams/src/SingularIntgr.f90",
+    "output": "pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_SingularIntgr.f90.o"
+  },
+  {
+    "directory": "/home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build",
+    "command": "gfortran -Ipyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -Ipyhams -I../pyhams -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/core/include -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/f2py/src -I/home/bayat2/anaconda3/envs/weis-env2/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -O2 -g -fdec-math -fno-align-commons -fPIC -fopenmp -Jpyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -o pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_InfGreen_Appr.f90.o -c ../pyhams/src/InfGreen_Appr.f90",
+    "file": "../pyhams/src/InfGreen_Appr.f90",
+    "output": "pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_InfGreen_Appr.f90.o"
+  },
+  {
+    "directory": "/home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build",
+    "command": "gfortran -Ipyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -Ipyhams -I../pyhams -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/core/include -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/f2py/src -I/home/bayat2/anaconda3/envs/weis-env2/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -O2 -g -fdec-math -fno-align-commons -fPIC -fopenmp -Jpyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -o pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_FinGrnExtSubs.f90.o -c ../pyhams/src/FinGrnExtSubs.f90",
+    "file": "../pyhams/src/FinGrnExtSubs.f90",
+    "output": "pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_FinGrnExtSubs.f90.o"
+  },
+  {
+    "directory": "/home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build",
+    "command": "gfortran -Ipyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -Ipyhams -I../pyhams -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/core/include -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/f2py/src -I/home/bayat2/anaconda3/envs/weis-env2/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -O2 -g -fdec-math -fno-align-commons -fPIC -fopenmp -Jpyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -o pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_FinGreen3D.f90.o -c ../pyhams/src/FinGreen3D.f90",
+    "file": "../pyhams/src/FinGreen3D.f90",
+    "output": "pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_FinGreen3D.f90.o"
+  },
+  {
+    "directory": "/home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build",
+    "command": "gfortran -Ipyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -Ipyhams -I../pyhams -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/core/include -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/f2py/src -I/home/bayat2/anaconda3/envs/weis-env2/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -O2 -g -fdec-math -fno-align-commons -fPIC -fopenmp -Jpyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -o pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_CalGreenFunc.f90.o -c ../pyhams/src/CalGreenFunc.f90",
+    "file": "../pyhams/src/CalGreenFunc.f90",
+    "output": "pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_CalGreenFunc.f90.o"
+  },
+  {
+    "directory": "/home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build",
+    "command": "gfortran -Ipyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -Ipyhams -I../pyhams -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/core/include -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/f2py/src -I/home/bayat2/anaconda3/envs/weis-env2/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -O2 -g -fdec-math -fno-align-commons -fPIC -fopenmp -Jpyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -o pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_HydroStatic.f90.o -c ../pyhams/src/HydroStatic.f90",
+    "file": "../pyhams/src/HydroStatic.f90",
+    "output": "pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_HydroStatic.f90.o"
+  },
+  {
+    "directory": "/home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build",
+    "command": "gfortran -Ipyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -Ipyhams -I../pyhams -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/core/include -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/f2py/src -I/home/bayat2/anaconda3/envs/weis-env2/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -O2 -g -fdec-math -fno-align-commons -fPIC -fopenmp -Jpyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -o pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_ImplementSubs.f90.o -c ../pyhams/src/ImplementSubs.f90",
+    "file": "../pyhams/src/ImplementSubs.f90",
+    "output": "pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_ImplementSubs.f90.o"
+  },
+  {
+    "directory": "/home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build",
+    "command": "gfortran -Ipyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -Ipyhams -I../pyhams -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/core/include -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/f2py/src -I/home/bayat2/anaconda3/envs/weis-env2/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -O2 -g -fdec-math -fno-align-commons -fPIC -fopenmp -Jpyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -o pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_InputFiles.f90.o -c ../pyhams/src/InputFiles.f90",
+    "file": "../pyhams/src/InputFiles.f90",
+    "output": "pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_InputFiles.f90.o"
+  },
+  {
+    "directory": "/home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build",
+    "command": "gfortran -Ipyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -Ipyhams -I../pyhams -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/core/include -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/f2py/src -I/home/bayat2/anaconda3/envs/weis-env2/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -O2 -g -fdec-math -fno-align-commons -fPIC -fopenmp -Jpyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -o pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_NormalProcess.f90.o -c ../pyhams/src/NormalProcess.f90",
+    "file": "../pyhams/src/NormalProcess.f90",
+    "output": "pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_NormalProcess.f90.o"
+  },
+  {
+    "directory": "/home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build",
+    "command": "gfortran -Ipyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -Ipyhams -I../pyhams -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/core/include -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/f2py/src -I/home/bayat2/anaconda3/envs/weis-env2/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -O2 -g -fdec-math -fno-align-commons -fPIC -fopenmp -Jpyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -o pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_ReadPanelMesh.f90.o -c ../pyhams/src/ReadPanelMesh.f90",
+    "file": "../pyhams/src/ReadPanelMesh.f90",
+    "output": "pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_ReadPanelMesh.f90.o"
+  },
+  {
+    "directory": "/home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build",
+    "command": "gfortran -Ipyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -Ipyhams -I../pyhams -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/core/include -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/f2py/src -I/home/bayat2/anaconda3/envs/weis-env2/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -O2 -g -fdec-math -fno-align-commons -fPIC -fopenmp -Jpyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -o pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_PotentWavForce.f90.o -c ../pyhams/src/PotentWavForce.f90",
+    "file": "../pyhams/src/PotentWavForce.f90",
+    "output": "pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_PotentWavForce.f90.o"
+  },
+  {
+    "directory": "/home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build",
+    "command": "gfortran -Ipyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -Ipyhams -I../pyhams -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/core/include -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/f2py/src -I/home/bayat2/anaconda3/envs/weis-env2/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -O2 -g -fdec-math -fno-align-commons -fPIC -fopenmp -Jpyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -o pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_PressureElevation.f90.o -c ../pyhams/src/PressureElevation.f90",
+    "file": "../pyhams/src/PressureElevation.f90",
+    "output": "pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_PressureElevation.f90.o"
+  },
+  {
+    "directory": "/home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build",
+    "command": "gfortran -Ipyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -Ipyhams -I../pyhams -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/core/include -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/f2py/src -I/home/bayat2/anaconda3/envs/weis-env2/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -O2 -g -fdec-math -fno-align-commons -fPIC -fopenmp -Jpyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -o pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_PrintOutput.f90.o -c ../pyhams/src/PrintOutput.f90",
+    "file": "../pyhams/src/PrintOutput.f90",
+    "output": "pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_PrintOutput.f90.o"
+  },
+  {
+    "directory": "/home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build",
+    "command": "gfortran -Ipyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -Ipyhams -I../pyhams -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/core/include -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/f2py/src -I/home/bayat2/anaconda3/envs/weis-env2/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -O2 -g -fdec-math -fno-align-commons -fPIC -fopenmp -Jpyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -o pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_SolveMotion.f90.o -c ../pyhams/src/SolveMotion.f90",
+    "file": "../pyhams/src/SolveMotion.f90",
+    "output": "pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_SolveMotion.f90.o"
+  },
+  {
+    "directory": "/home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build",
+    "command": "gfortran -Ipyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -Ipyhams -I../pyhams -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/core/include -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/f2py/src -I/home/bayat2/anaconda3/envs/weis-env2/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -O2 -g -fdec-math -fno-align-commons -fPIC -fopenmp -Jpyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -o pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_WavDynSubs.f90.o -c ../pyhams/src/WavDynSubs.f90",
+    "file": "../pyhams/src/WavDynSubs.f90",
+    "output": "pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_WavDynSubs.f90.o"
+  },
+  {
+    "directory": "/home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build",
+    "command": "gfortran -Ipyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -Ipyhams -I../pyhams -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/core/include -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/f2py/src -I/home/bayat2/anaconda3/envs/weis-env2/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -O2 -g -fdec-math -fno-align-commons -fPIC -fopenmp -Jpyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -o pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_HAMS_Prog.f90.o -c ../pyhams/src/HAMS_Prog.f90",
+    "file": "../pyhams/src/HAMS_Prog.f90",
+    "output": "pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/src_HAMS_Prog.f90.o"
+  },
+  {
+    "directory": "/home/bayat2/Documents/SB-WEIS-Phase2/pyHAMS/meson_build",
+    "command": "cc -Ipyhams/_hams.cpython-311-x86_64-linux-gnu.so.p -Ipyhams -I../pyhams -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/core/include -I/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/f2py/src -I/home/bayat2/anaconda3/envs/weis-env2/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -fPIC -fopenmp -MD -MQ pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/6671ee21bbe8fbe2f80ccdf5f7df138cc2b0e682_.._.._f2py_src_fortranobject.c.o -MF pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/6671ee21bbe8fbe2f80ccdf5f7df138cc2b0e682_.._.._f2py_src_fortranobject.c.o.d -o pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/6671ee21bbe8fbe2f80ccdf5f7df138cc2b0e682_.._.._f2py_src_fortranobject.c.o -c /home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/f2py/src/fortranobject.c",
+    "file": "/home/bayat2/anaconda3/envs/weis-env2/lib/python3.11/site-packages/numpy/f2py/src/fortranobject.c",
+    "output": "pyhams/_hams.cpython-311-x86_64-linux-gnu.so.p/6671ee21bbe8fbe2f80ccdf5f7df138cc2b0e682_.._.._f2py_src_fortranobject.c.o"
+  }
+]
