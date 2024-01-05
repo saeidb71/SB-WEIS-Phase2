@@ -21,3 +21,4 @@ else:
 if rank == 0:
     print("Run time: %f"%(time.time()-tt))
     sys.stdout.flush()
+

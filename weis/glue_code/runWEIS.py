@@ -228,7 +228,7 @@ def run_weis(fname_wt_input, fname_modeling_options, fname_opt_options, overridd
     # Send each core in use to a barrier synchronization
     if MPI and color_i < 1000000:
         MPI.COMM_WORLD.Barrier()
-
+    
     if rank == 0:
         return wt_opt, modeling_options, opt_options
     else:
