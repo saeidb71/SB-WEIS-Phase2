@@ -75,6 +75,10 @@ class CMakeBuildExt(build_ext):
             elif (mycompiler.find('ifort') >= 0 or mycompiler.find('icc') >= 0 or
                   mycompiler.find('icpc') >= 0):
                 tune = '-xHost'
+
+            elif platform.system() == 'Darwin':
+                # clang doesn't support -march=native
+                tune = '-mtune=native'
                 
             else:
                 tune = '-march=native -mtune=native'
@@ -129,9 +133,9 @@ weis_pkgs       = find_packages()
 
 # Install the python sub-packages
 print(sys.argv)
-for pkg in ['WISDEM','ROSCO','pCrunch','pyHAMS','MoorPy','RAFT','dtqpy']:
+for pkg in ['WISDEM','ROSCO','pCrunch','MoorPy','RAFT','dtqpy']:
     os.chdir(pkg)
-    if pkg in ['WISDEM', 'pyHAMS']:
+    if pkg in ['WISDEM']:
         # This option runs `python setup.py install/develop` on each package
         os.system(sys.executable+" setup.py develop")
         #retval = subprocess.call([sys.executable, "setup.py", "develop"])
