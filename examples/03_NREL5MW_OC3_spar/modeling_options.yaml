@@ -96,7 +96,7 @@ ROSCO:
     ptfm_freq: .2                     # Frequency of LPF in floating feedback (F_FlCornerFreq)
     zeta_vs: 0.7
     omega_vs: 0.2
-    
+   
 DLC_driver:
     DLCs:
         - DLC: "1.1"
@@ -114,4 +114,5 @@ DLC_driver:
               Clockwise: True
               RefHt: 90.0
               PLExp: 0.11
+
 

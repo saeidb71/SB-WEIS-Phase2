@@ -42,7 +42,7 @@ ROSCO:
 DLC_driver:
     DLCs:
         - DLC: "1.1"
-          wind_speed: [16]
+          wind_speed: [15]
           n_seeds: 1
           analysis_time: 10.
           transient_time: 0.1
@@ -52,7 +52,7 @@ DLC_driver:
               GridHeight: 220
               GridWidth: 220
         - DLC: "6.1"
-          analysis_time: 10.
+          analysis_time: 5.
           transient_time: 0.1
           turbulent_wind:
               HubHt: 142
